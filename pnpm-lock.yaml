@@ -32,9 +32,15 @@ importers:
       '@tailwindcss/postcss':
         specifier: 4.1.11
         version: 4.1.11
+      '@types/file-saver':
+        specifier: 2.0.7
+        version: 2.0.7
       '@types/node':
         specifier: 24.0.10
         version: 24.0.10
+      '@types/pdfmake':
+        specifier: 0.2.11
+        version: 0.2.11
       '@types/react':
         specifier: 19.1.8
         version: 19.1.8
@@ -558,6 +564,10 @@ packages:
     resolution:
       { integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w== }
 
+  '@types/file-saver@2.0.7':
+    resolution:
+      { integrity: sha512-dNKVfHd/jk0SkR/exKGj2ggkB45MAkzvWCaqLUUgkyjITkGNzH8H+yUwr+BLJUBjZOe9w8X3wgmXhZDRg1ED6A== }
+
   '@types/json-schema@7.0.15':
     resolution:
       { integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA== }
@@ -569,6 +579,14 @@ packages:
   '@types/node@24.0.10':
     resolution:
       { integrity: sha512-ENHwaH+JIRTDIEEbDK6QSQntAYGtbvdDXnMXnZaZ6k13Du1dPMmprkEHIL7ok2Wl2aZevetwTAb5S+7yIF+enA== }
+
+  '@types/pdfkit@0.14.0':
+    resolution:
+      { integrity: sha512-X94hoZVr9dNfV23roeXRm57AWS+AOMak3gq2wZvn4TXiLvXE8+TrYaM5IkMyZbGRw49jEqI49rP/UVL3+C3Svg== }
+
+  '@types/pdfmake@0.2.11':
+    resolution:
+      { integrity: sha512-gglgMQhnG6C2kco13DJlvokqTxL+XKxHwCejElH8fSCNF9ZCkRK6Mzo011jQ0zuug+YlIgn6BpcpZrARyWdW3Q== }
 
   '@types/react-dom@19.1.6':
     resolution:
@@ -2786,6 +2804,8 @@ snapshots:
 
   '@types/estree@1.0.8': {}
 
+  '@types/file-saver@2.0.7': {}
+
   '@types/json-schema@7.0.15': {}
 
   '@types/json5@0.0.29': {}
@@ -2793,6 +2813,15 @@ snapshots:
   '@types/node@24.0.10':
     dependencies:
       undici-types: 7.8.0
+
+  '@types/pdfkit@0.14.0':
+    dependencies:
+      '@types/node': 24.0.10
+
+  '@types/pdfmake@0.2.11':
+    dependencies:
+      '@types/node': 24.0.10
+      '@types/pdfkit': 0.14.0
 
   '@types/react-dom@19.1.6(@types/react@19.1.8)':
     dependencies:

@@ -1,9 +1,37 @@
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
 	[332],
 	{
-		1863: (e, s, t) => {
+		8258: (e, s, t) => {
 			'use strict';
-			(t.r(s), t.d(s, { default: () => u }));
+			t.d(s, { F: () => i });
+			var r = t(5640),
+				l = t(2635),
+				a = t(7864),
+				n = t.n(a);
+			let i = () =>
+				(0, r.jsx)('header', {
+					className: 'w-full',
+					children: (0, r.jsxs)('div', {
+						className: 'container mx-auto flex items-center justify-between gap-x-2 px-4 py-2 md:px-8 md:py-4',
+						children: [
+							(0, r.jsx)(n(), {
+								href: '/',
+								children: (0, r.jsx)('h1', { className: 'text-xl font-bold', children: l.C }),
+							}),
+							(0, r.jsx)('nav', {
+								className: 'space-x-4 font-medium text-neutral-500',
+								children: [{ id: 'app', href: '/app', label: 'App' }].map((e) => {
+									let { id: s, href: t, label: l } = e;
+									return (0, r.jsx)(n(), { href: t, className: 'text-sm md:text-base', children: l }, s);
+								}),
+							}),
+						],
+					}),
+				});
+		},
+		8406: (e, s, t) => {
+			'use strict';
+			(t.r(s), t.d(s, { default: () => m }));
 			var r = t(5640),
 				l = t(7864),
 				a = t.n(l);
@@ -93,7 +121,7 @@
 						}),
 					});
 			var d = t(2635);
-			let o = () =>
+			let x = () =>
 					(0, r.jsx)('footer', {
 						className: 'w-full',
 						children: (0, r.jsxs)('div', {
@@ -114,7 +142,7 @@
 							],
 						}),
 					}),
-				c = () =>
+				o = () =>
 					(0, r.jsx)('section', {
 						className: 'w-full py-20',
 						children: (0, r.jsxs)('div', {
@@ -138,56 +166,29 @@
 								}),
 							],
 						}),
-					});
-			var x = t(8258);
-			let u = () =>
+					}),
+				c = () => (0, r.jsx)('div', { className: 'w-full border-t border-neutral-800' });
+			var u = t(8258);
+			let m = () =>
 				(0, r.jsxs)(r.Fragment, {
 					children: [
-						(0, r.jsx)(x.F, {}),
-						(0, r.jsx)('div', { className: 'w-full border-t border-neutral-800' }),
+						(0, r.jsx)(u.F, {}),
 						(0, r.jsx)(c, {}),
-						(0, r.jsx)('div', { className: 'w-full border-t border-neutral-800' }),
-						(0, r.jsx)(i, {}),
-						(0, r.jsx)('div', { className: 'w-full border-t border-neutral-800' }),
-						(0, r.jsx)(n, {}),
-						(0, r.jsx)('div', { className: 'w-full border-t border-neutral-800' }),
 						(0, r.jsx)(o, {}),
+						(0, r.jsx)(c, {}),
+						(0, r.jsx)(i, {}),
+						(0, r.jsx)(c, {}),
+						(0, r.jsx)(n, {}),
+						(0, r.jsx)(c, {}),
+						(0, r.jsx)(x, {}),
 					],
-				});
-		},
-		8258: (e, s, t) => {
-			'use strict';
-			t.d(s, { F: () => i });
-			var r = t(5640),
-				l = t(2635),
-				a = t(7864),
-				n = t.n(a);
-			let i = () =>
-				(0, r.jsx)('header', {
-					className: 'w-full',
-					children: (0, r.jsxs)('div', {
-						className: 'container mx-auto flex items-center justify-between gap-x-2 px-4 py-2 md:px-8 md:py-4',
-						children: [
-							(0, r.jsx)(n(), {
-								href: '/',
-								children: (0, r.jsx)('h1', { className: 'text-xl font-bold', children: l.C }),
-							}),
-							(0, r.jsx)('nav', {
-								className: 'space-x-4 font-medium text-neutral-500',
-								children: [{ id: 'app', href: '/app', label: 'App' }].map((e) => {
-									let { id: s, href: t, label: l } = e;
-									return (0, r.jsx)(n(), { href: t, className: 'text-sm md:text-base', children: l }, s);
-								}),
-							}),
-						],
-					}),
 				});
 		},
 		8898: (e, s, t) => {
 			(window.__NEXT_P = window.__NEXT_P || []).push([
 				'/',
 				function () {
-					return t(1863);
+					return t(8406);
 				},
 			]);
 		},

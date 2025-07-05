@@ -24,6 +24,7 @@
 		"dev": "next dev --turbopack",
 		"prebuild": "rimraf .next",
 		"build": "next build",
+		"postbuild": "touch docs/.nojekyll",
 		"prestart": "kill-port 3000",
 		"start": "next start",
 		"prepare": "husky || true"
@@ -39,7 +40,9 @@
 	"devDependencies": {
 		"@eslint/eslintrc": "3.3.1",
 		"@tailwindcss/postcss": "4.1.11",
+		"@types/file-saver": "2.0.7",
 		"@types/node": "24.0.10",
+		"@types/pdfmake": "0.2.11",
 		"@types/react": "19.1.8",
 		"@types/react-dom": "19.1.6",
 		"eslint": "9.30.1",
