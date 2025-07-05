@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
 	reactStrictMode: true,
 	basePath: NODE_ENV === 'development' ? '' : '/markup',
 	output: NODE_ENV === 'development' ? 'standalone' : 'export',
-	distDir: NODE_ENV === 'development' ? '.next' : '../../docs',
+	distDir: NODE_ENV === 'development' ? '.next' : 'docs',
 };
 
 export default nextConfig;
