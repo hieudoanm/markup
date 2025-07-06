@@ -13,7 +13,7 @@ const AppPage: NextPage = () => {
 
 	useEffect(() => {
 		const setHTML = async () => {
-			const newHTML: string = await marked(INITIAL_MARKDOWN);
+			const newHTML: string = await marked(markdown);
 			setState((previous) => ({ ...previous, html: newHTML }));
 		};
 		setHTML();

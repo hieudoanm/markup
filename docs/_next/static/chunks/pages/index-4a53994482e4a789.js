@@ -132,7 +132,7 @@
 								(0, r.jsx)('div', {
 									className: 'space-x-4',
 									children: (0, r.jsx)(a(), {
-										href: 'https://github.com/hieudoanm/numbers',
+										href: 'https://github.com/hieudoanm/markup',
 										target: '_blank',
 										rel: 'noopener noreferrer',
 										className: 'hover:underline',

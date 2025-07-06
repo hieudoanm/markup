@@ -1,10 +1,11 @@
 {
-	"name": "@markup/web",
+	"name": "@markup/app",
 	"version": "0.0.1",
 	"private": true,
-	"description": "markup",
+	"description": "Markup - Markdown Editor with GitHub Style",
 	"keywords": [
-		"markup"
+		"markup",
+		"github"
 	],
 	"homepage": "https://github.com/hieudoanm/markup#readme",
 	"bugs": {
@@ -27,6 +28,8 @@
 		"postbuild": "touch docs/.nojekyll",
 		"prestart": "kill-port 3000",
 		"start": "next start",
+		"tauri:dev": "tauri dev",
+		"tauri:build": "tauri build",
 		"prepare": "husky || true"
 	},
 	"dependencies": {
@@ -40,6 +43,7 @@
 	"devDependencies": {
 		"@eslint/eslintrc": "3.3.1",
 		"@tailwindcss/postcss": "4.1.11",
+		"@tauri-apps/cli": "2.6.2",
 		"@types/file-saver": "2.0.7",
 		"@types/node": "24.0.10",
 		"@types/pdfmake": "0.2.11",

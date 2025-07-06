@@ -36,8 +36,8 @@
 				return (
 					(0, d.useEffect)(() => {
 						(async () => {
-							let e = await (0, c.xI)(i.b);
-							a((l) => ({ ...l, html: e }));
+							let l = await (0, c.xI)(e);
+							a((e) => ({ ...e, html: l }));
 						})();
 					}, [e]),
 					(0, s.jsxs)('div', {
